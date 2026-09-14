@@ -10,7 +10,7 @@ const Weather = (() => {
   const CACHE_KEY = "banff_weather_cache_v1";
   const CACHE_TTL_MS = 3 * 60 * 60 * 1000; // 3 hours
 
-  // Rough September (Banff/Jasper region) climate normals as offline fallback
+  // Rough September Rockies climate normals as offline fallback (sample trip region)
   const SEASONAL_FALLBACK = { high: 17, low: 4, code: 2, precipChance: 30 };
 
   const WMO = {

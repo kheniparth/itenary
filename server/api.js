@@ -167,5 +167,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`banff-api listening on :${PORT}, data at ${DATA_FILE}`);
+  console.log(`itinerary-api listening on :${PORT}, data at ${DATA_FILE}`);
 });

@@ -34,7 +34,7 @@ function parseCoordsFromText(text) {
   return null;
 }
 
-const UA = "Mozilla/5.0 (compatible; BanffTrip/1.0)";
+const UA = "Mozilla/5.0 (compatible; ItineraryApp/1.0)";
 
 function nameMatchesQuery(featureName, text) {
   const n = (featureName || "").toLowerCase();

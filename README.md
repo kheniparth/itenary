@@ -1,24 +1,26 @@
-# Banff & Jasper Road Trip — Itinerary App
+# Itinerary App
 
-> **Archived.** This trip (Sept 2–10, 2026) is complete. The app is kept as a public demo / reference for a small offline-capable itinerary PWA.
+A reusable, installable, offline-capable trip itinerary PWA — swipeable day plans, packing list, satellite map, and optional shared sync via a tiny Node API.
 
-A single-page, installable, offline-capable itinerary for a Banff & Jasper road trip — swipeable day plans, packing list, satellite map, and optional shared sync via a tiny Node API.
+> **Demo archive.** Ships with a completed Banff & Jasper sample trip (Sept 2–10, 2026). Edit the trip in-app or replace `js/data.js` / `data/trip.json` for your own travels.
 
 ## Screenshots
 
+Sample trip UI (Banff & Jasper demo):
+
 ### Day view (swipeable itinerary)
 
-| Sep 2 · Travel | Sep 3 · Mountains | Sep 4 · Lakes |
+| Travel | Mountains | Lakes |
 | --- | --- | --- |
-| ![Day 1](screenshots/day-01-sep02-travel.png) | ![Day 2](screenshots/day-02-sep03-mountains.png) | ![Day 3](screenshots/day-03-sep04-lakes.png) |
+| ![Travel](screenshots/day-01-sep02-travel.png) | ![Mountains](screenshots/day-02-sep03-mountains.png) | ![Lakes](screenshots/day-03-sep04-lakes.png) |
 
-| Sep 5 · Icefields Parkway | Sep 6 · Jasper | Sep 7 · Columbia Icefield |
+| Icefields Parkway | Jasper | Columbia Icefield |
 | --- | --- | --- |
-| ![Day 4](screenshots/day-04-sep05-icefields-parkway.png) | ![Day 5](screenshots/day-05-sep06-jasper.png) | ![Day 6](screenshots/day-06-sep07-columbia-icefield.png) |
+| ![Icefields Parkway](screenshots/day-04-sep05-icefields-parkway.png) | ![Jasper](screenshots/day-05-sep06-jasper.png) | ![Columbia Icefield](screenshots/day-06-sep07-columbia-icefield.png) |
 
-| Sep 8 · Kananaskis | Sep 9 · Calgary | Sep 10 · Fly home |
+| Kananaskis | Calgary | Fly home |
 | --- | --- | --- |
-| ![Day 7](screenshots/day-07-sep08-kananaskis.png) | ![Day 8](screenshots/day-08-sep09-calgary.png) | ![Day 9](screenshots/day-09-sep10-fly-home.png) |
+| ![Kananaskis](screenshots/day-07-sep08-kananaskis.png) | ![Calgary](screenshots/day-08-sep09-calgary.png) | ![Fly home](screenshots/day-09-sep10-fly-home.png) |
 
 ### Other pages
 
@@ -91,8 +93,8 @@ Store.resetToDefaults()
 
 ## Notes on weather
 
-Forecasts are available ~16 days out (Open-Meteo). Farther out, days show a September Rockies seasonal-average placeholder.
+Forecasts are available ~16 days out (Open-Meteo). Farther out, days show a seasonal-average placeholder for the sample Rockies trip.
 
 ## Privacy / public archive
 
-Booking confirmation tokens, private photo-share URLs, license plates, and exact home/pickup street addresses were removed before publishing. Hotel names and public place links remain as part of the trip story. If you fork this, put your own private links in local edits — don’t commit them.
+Booking confirmation tokens, private photo-share URLs, license plates, and exact home/pickup street addresses were removed before publishing. Hotel names and public place links remain as part of the sample trip story. If you fork this, put your own private links in local edits — don’t commit them.

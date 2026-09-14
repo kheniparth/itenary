@@ -1,7 +1,7 @@
 {
-  "name": "Banff & Jasper Road Trip 2026",
-  "short_name": "Banff Trip",
-  "description": "Offline itinerary for the Banff & Jasper road trip, Sept 2-10 2026",
+  "name": "Itinerary App",
+  "short_name": "Itinerary",
+  "description": "Offline-capable trip itinerary — day plans, packing list, and map",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

@@ -4,22 +4,22 @@
    Bump CACHE_VERSION whenever app files change to force refresh.
    ============================================================ */
 
-const CACHE_VERSION = "v29";
-const APP_CACHE = `banff-app-${CACHE_VERSION}`;
-const WEATHER_CACHE = `banff-weather-${CACHE_VERSION}`;
-const TILE_CACHE = `banff-tiles-${CACHE_VERSION}`;
+const CACHE_VERSION = "v30";
+const APP_CACHE = `itinerary-app-${CACHE_VERSION}`;
+const WEATHER_CACHE = `itinerary-weather-${CACHE_VERSION}`;
+const TILE_CACHE = `itinerary-tiles-${CACHE_VERSION}`;
 
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.json",
-  "./css/styles.css?v=29",
-  "./js/data.js?v=29",
-  "./js/store.js?v=29",
-  "./js/sync.js?v=29",
-  "./js/routing.js?v=29",
-  "./js/weather.js?v=29",
-  "./js/app.js?v=29",
+  "./css/styles.css?v=30",
+  "./js/data.js?v=30",
+  "./js/store.js?v=30",
+  "./js/sync.js?v=30",
+  "./js/routing.js?v=30",
+  "./js/weather.js?v=30",
+  "./js/app.js?v=30",
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
