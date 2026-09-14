@@ -1,0 +1,945 @@
+{
+  "trip": {
+    "title": "Banff & Jasper Road Trip",
+    "year": 2026,
+    "travelers": 4,
+    "timezone": "America/Edmonton",
+    "currency": "CAD",
+    "startDate": "2026-09-02",
+    "endDate": "2026-09-10",
+    "places": {
+      "calgary": {
+        "name": "Calgary",
+        "lat": 51.0447,
+        "lon": -114.0719,
+        "emoji": "🏙️"
+      },
+      "banff": {
+        "name": "Banff",
+        "lat": 51.1784,
+        "lon": -115.5708,
+        "emoji": "🏔️"
+      },
+      "canmore": {
+        "name": "Canmore",
+        "lat": 51.0891,
+        "lon": -115.3594,
+        "emoji": "⛰️"
+      },
+      "lakeLouise": {
+        "name": "Lake Louise",
+        "lat": 51.4254,
+        "lon": -116.1773,
+        "emoji": "🏞️"
+      },
+      "cochrane": {
+        "name": "Cochrane",
+        "lat": 51.1892,
+        "lon": -114.4676,
+        "emoji": "🌄"
+      },
+      "hinton": {
+        "name": "Hinton",
+        "lat": 53.4001,
+        "lon": -117.5885,
+        "emoji": "🌲"
+      },
+      "jasper": {
+        "name": "Jasper",
+        "lat": 52.8737,
+        "lon": -118.0814,
+        "emoji": "🦌"
+      }
+    },
+    "packing": [
+      {
+        "category": "Documents",
+        "items": [
+          {
+            "text": "Passports / ID",
+            "packed": false,
+            "id": "4wyre91o"
+          },
+          {
+            "text": "Flight confirmations",
+            "packed": false,
+            "id": "gudei7xu"
+          },
+          {
+            "text": "Hotel/Airbnb confirmations",
+            "packed": false,
+            "id": "o085viit"
+          },
+          {
+            "text": "Rental car confirmation + license",
+            "packed": false,
+            "id": "ygsoogx8"
+          },
+          {
+            "text": "Parks Canada pass (Discovery Pass)",
+            "packed": false,
+            "id": "b1bzr5iy"
+          }
+        ],
+        "id": "x0vjriv9"
+      },
+      {
+        "category": "Clothing",
+        "items": [
+          {
+            "text": "Layers (Sept mountain weather swings 30°F+)",
+            "packed": false,
+            "id": "zepu0rbx"
+          },
+          {
+            "text": "Waterproof/windproof jacket",
+            "packed": false,
+            "id": "32ys7nai"
+          },
+          {
+            "text": "Hiking boots",
+            "packed": false,
+            "id": "guc1s7jk"
+          },
+          {
+            "text": "Warm hat + gloves (mornings are cold)",
+            "packed": false,
+            "id": "eaaidyhr"
+          },
+          {
+            "text": "Swimsuit (hot springs!)",
+            "packed": false,
+            "id": "ht1hb1ck"
+          }
+        ],
+        "id": "d5fkc30k"
+      },
+      {
+        "category": "Gear",
+        "items": [
+          {
+            "text": "Camera / phone mount",
+            "packed": false,
+            "id": "bbtulqnw"
+          },
+          {
+            "text": "Portable charger",
+            "packed": false,
+            "id": "op6n3di4"
+          },
+          {
+            "text": "Bear spray (rent/buy locally, can't fly with it)",
+            "packed": false,
+            "id": "s443e0u1"
+          },
+          {
+            "text": "Reusable water bottles",
+            "packed": false,
+            "id": "sl5klbp5"
+          },
+          {
+            "text": "Offline maps downloaded",
+            "packed": false,
+            "id": "ad0ibpb7"
+          }
+        ],
+        "id": "y4911322"
+      },
+      {
+        "id": "uxuiu5ya",
+        "category": "Booking required",
+        "items": [
+          {
+            "id": "22vnyywn",
+            "text": "Sept 4, Friday, Hotsprings",
+            "packed": false
+          },
+          {
+            "id": "qgs9767e",
+            "text": "Sept 6, Sunday, Maligne cruise",
+            "packed": false
+          },
+          {
+            "id": "s0mdxa9o",
+            "text": "Sept 7, Monday, Columbia Icefield Skywalk / Glacier Adventure",
+            "packed": false
+          },
+          {
+            "id": "lrjxo7n4",
+            "text": "Sept 9, Wednesday, Moraine lake Shuttle (Reserve on 7th 8AM MT)",
+            "packed": false
+          },
+          {
+            "id": "f6zrsp29",
+            "text": "Sept 9 , Wednesday, Day pass, https://www.banfflakelouise.com/park-pass-purchase",
+            "packed": false
+          }
+        ]
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-09-02",
+        "from": "YYZ (Toronto)",
+        "to": "YYC (Calgary)",
+        "place": "calgary",
+        "emoji": "✈️",
+        "photo": "images/calgary.jpg",
+        "headline": "Travel day",
+        "travelTime": "✈️ ~4h direct flight",
+        "activities": [
+          {
+            "text": "Leave home",
+            "emoji": "🏠",
+            "id": "8qfv2mvd",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/v7sDG5NVVMg1HgA39",
+            "lat": 43.8897894,
+            "lon": -78.8435072,
+            "done": true
+          },
+          {
+            "text": "Drop off car — Park'N Fly (YYZ)",
+            "emoji": "🅿️",
+            "distanceKm": 66.94,
+            "durationMin": 56,
+            "link": "https://parknfly.ca/",
+            "id": "3vv9nfii",
+            "arrive": "",
+            "leave": "",
+            "mapLink": "https://maps.app.goo.gl/XYh7PERik4j7p6sJ9",
+            "lat": 43.6927093,
+            "lon": -79.5769726,
+            "done": true
+          },
+          {
+            "text": "Takeoff YYZ",
+            "emoji": "✈️",
+            "id": "5r08pork",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 14.04,
+            "durationMin": 17,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/c9xyVAs8FQXvV5AN9",
+            "lat": 43.6818196,
+            "lon": -79.6830794,
+            "done": true
+          },
+          {
+            "emoji": "🛬",
+            "text": "YYC",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/65tGwHP6kPzbnGdV8",
+            "id": "577r0ue2",
+            "lat": 51.1317786,
+            "lon": -114.0436384,
+            "flightLeg": true,
+            "done": true
+          },
+          {
+            "emoji": "🏨",
+            "text": "Sandman Hotel Calgary Airport",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/2WwCJoYkVzL6WCF78",
+            "id": "3iviyj9q",
+            "lat": 51.0949502,
+            "lon": -114.0021388,
+            "distanceKm": 10.7,
+            "durationMin": 12,
+            "done": true
+          },
+          {
+            "text": "Sleep / settle in",
+            "emoji": "😴",
+            "id": "1opc9e5p",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "",
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Sandman Hotel Calgary Airport",
+            "city": "Calgary",
+            "rooms": "1 room",
+            "link": "https://ca.hotels.com/ho217554/sandman-hotel-calgary-airport-calgary-canada/",
+            "confirmed": true,
+            "id": "99t0a7ih"
+          }
+        ],
+        "notes": "",
+        "id": "loqata5k"
+      },
+      {
+        "date": "2026-09-03",
+        "from": "Calgary",
+        "to": "Banff town",
+        "place": "banff",
+        "emoji": "🏔️",
+        "photo": "images/bow-falls.jpg",
+        "headline": "Into the mountains",
+        "travelTime": "🚗 ~1h 25m (Calgary → Banff)",
+        "activities": [
+          {
+            "text": "Pick up rental car (Turo)",
+            "emoji": "🚙",
+            "arrive": "07:00",
+            "id": "3dni2r08",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/LJW1L3b5BeKSYaqm7",
+            "lat": 50.9889915,
+            "lon": -113.9747159,
+            "done": true
+          },
+          {
+            "text": "Banff town",
+            "emoji": "🏘️",
+            "id": "i6djpqef",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/RHffPWsybb3YZWWs6",
+            "lat": 51.177316,
+            "lon": -115.5858742,
+            "distanceKm": 143.6,
+            "durationMin": 116,
+            "done": true
+          },
+          {
+            "text": "Bow Falls",
+            "emoji": "💦",
+            "id": "59hq78qt",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 2.56,
+            "durationMin": 6,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/exJxCNKQFcL4cViC7",
+            "lat": 51.1679916,
+            "lon": -115.5821293,
+            "done": true
+          },
+          {
+            "emoji": "📍",
+            "text": "Johnston Canyon",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/NFsHzhpmrdnqh29P6",
+            "id": "yik3o9zc",
+            "lat": 51.2494498,
+            "lon": -115.8493495,
+            "distanceKm": 27.73,
+            "durationMin": 37,
+            "done": true
+          },
+          {
+            "text": "Canmore Inn & Suites",
+            "emoji": "🏨",
+            "id": "crbyfy94",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/Uk3CpX3jqUeNysCQ9",
+            "lat": 51.0932088,
+            "lon": -115.356468,
+            "distanceKm": 47.18,
+            "durationMin": 48,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Canmore Hotel",
+            "city": "Canmore",
+            "rooms": "1 room",
+            "link": "https://secure.webrez.com/hotel/3084",
+            "confirmed": false,
+            "id": "xg1ogovd"
+          }
+        ],
+        "notes": "Car pickup (Turo) in Calgary SE — Thu Sep 3, 7:00 AM.",
+        "id": "9egbk8od"
+      },
+      {
+        "date": "2026-09-04",
+        "from": "Canmore",
+        "to": "Banff",
+        "place": "lakeLouise",
+        "emoji": "🏞️",
+        "photo": "images/moraine-lake.jpg",
+        "headline": "TBD",
+        "travelTime": "🚗 ~1h to Lake Louise / Emerald Lake area",
+        "activities": [
+          {
+            "emoji": "📍",
+            "text": "Canmore town",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/jM1uth8S5gu8vxh48",
+            "id": "sry31zpj",
+            "lat": 51.0676568,
+            "lon": -115.409857,
+            "done": true
+          },
+          {
+            "emoji": "📍",
+            "text": "Grassi Lake",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 421.34,
+            "durationMin": 421,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/1Jd8kQJhqmzvLC9A8",
+            "id": "4c54tbz5",
+            "lat": 50.4434274,
+            "lon": -114.8710991,
+            "done": true
+          },
+          {
+            "emoji": "📍",
+            "text": "Super 8 by Wyndham Cochrane",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 356.31,
+            "durationMin": 369,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/pvdBWbg5pdq1uALC6",
+            "id": "071kyyl8",
+            "lat": 51.1907832,
+            "lon": -114.4921473,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Super 8 by Wyndham Cochrane",
+            "city": "Cochrane",
+            "rooms": "1 room",
+            "link": "https://www.booking.com/hotel/ca/super-8-cochrane.en-gb.html",
+            "confirmed": true,
+            "id": "uqxq6041"
+          }
+        ],
+        "notes": "Other options considered: Canmore / Calgary.",
+        "id": "9dvsvi6y"
+      },
+      {
+        "date": "2026-09-05",
+        "from": "Canmore / Calgary",
+        "to": "Hinton",
+        "place": "hinton",
+        "emoji": "💃🏻",
+        "photo": "images/peyto-lake.jpg",
+        "headline": "Zeel's Day",
+        "travelTime": "🚗 ~3h (Lake Louise → Hinton via Icefields Pkwy)",
+        "activities": [
+          {
+            "text": "Icefields Parkway drive",
+            "emoji": "🛣️",
+            "id": "a7vmdc94",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/SHqwKxpA8Uv7SxqS7",
+            "lat": 52.1706201,
+            "lon": -117.0758429,
+            "done": true
+          },
+          {
+            "text": "Bow Lake",
+            "emoji": "🏞️",
+            "id": "1ufej8q7",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 75.26,
+            "durationMin": 66,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/LLqSSmRK7A3seHi9A",
+            "lat": 51.6625597,
+            "lon": -116.4829557,
+            "done": true
+          },
+          {
+            "text": "Peyto Lake",
+            "emoji": "💎",
+            "id": "hzb0n8df",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 6.62,
+            "durationMin": 9,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/qgfjy7knDg6GNZFS8",
+            "lat": 51.7255186,
+            "lon": -116.525278,
+            "done": true
+          },
+          {
+            "text": "Sunwapta Falls",
+            "emoji": "💦",
+            "id": "9ugiuhlf",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 135.59,
+            "durationMin": 131,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/uJLrudJH87WHjCU9A",
+            "lat": 52.5327683,
+            "lon": -117.6482617,
+            "done": true
+          },
+          {
+            "text": "Pyramid Lake (sunset)",
+            "emoji": "🌅",
+            "id": "yxcevxod",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 61.79,
+            "durationMin": 63,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/fcgUTui29AkNR4sh8",
+            "lat": 52.9223675,
+            "lon": -118.1125506,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Holiday Inn Hinton",
+            "city": "Hinton",
+            "rooms": "1 room · 4 adults (Sept 5–7, discounted)",
+            "link": "",
+            "confirmed": true,
+            "id": "1vs7kqie"
+          }
+        ],
+        "notes": "",
+        "id": "o1knjcq3"
+      },
+      {
+        "date": "2026-09-06",
+        "from": "Hinton",
+        "to": "Jasper National Park",
+        "place": "jasper",
+        "emoji": "🦌",
+        "photo": "images/pyramid-lake.jpg",
+        "headline": "Jasper",
+        "travelTime": "🚗 ~1h 5m (Hinton → Jasper)",
+        "activities": [
+          {
+            "text": "Jasper town",
+            "emoji": "🏘️",
+            "id": "5ducq58q",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/9kGoV9hkXiKL8X4a7",
+            "lat": 52.8789651,
+            "lon": -118.1085311,
+            "done": true
+          },
+          {
+            "text": "Maligne cruise",
+            "emoji": "🚤",
+            "id": "oapqj9g9",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/i6SUv2emRCMAPN3C9",
+            "lat": 52.7294312,
+            "lon": -117.9447556,
+            "distanceKm": 26.71,
+            "durationMin": 59,
+            "done": true
+          },
+          {
+            "text": "Hot springs",
+            "emoji": "♨️",
+            "id": "dbd7yeau",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/fv5JcVnWbkEuApXt6",
+            "distanceKm": 267.28,
+            "durationMin": 246,
+            "lat": 51.1750699,
+            "lon": -115.5747619,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Holiday Inn Hinton",
+            "city": "Hinton",
+            "rooms": "2 rooms · 2 adults each (Sept 5–7, discounted)",
+            "link": "",
+            "confirmed": true,
+            "id": "5oysetri"
+          }
+        ],
+        "notes": "Same Hinton booking as Sept 5, back for the night.",
+        "id": "5nrcshzx"
+      },
+      {
+        "date": "2026-09-07",
+        "from": "Hinton",
+        "to": "Banff / Calgary",
+        "place": "banff",
+        "emoji": "🧊",
+        "photo": "images/columbia-icefield.jpg",
+        "headline": "Columbia Icefield",
+        "travelTime": "🚗 ~3h 45m (Jasper → Banff via Columbia Icefield)",
+        "activities": [
+          {
+            "text": "Athabasca Falls",
+            "emoji": "💦",
+            "id": "10ek9c1d",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/GBNTMfBfo7EaRUYe9",
+            "lat": 52.6644402,
+            "lon": -117.8863476,
+            "done": true
+          },
+          {
+            "text": "Columbia Icefield Skywalk",
+            "emoji": "🚶",
+            "id": "4dd1zv05",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 72.49,
+            "durationMin": 70,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/uf9yfKJ7PerWCEnd9",
+            "lat": 52.2203191,
+            "lon": -117.2271056,
+            "done": true
+          },
+          {
+            "text": "Columbia Icefield Glacier Adventure",
+            "emoji": "🧊",
+            "id": "cjqqdzcr",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 0,
+            "durationMin": 0,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/2SbmnkdoFkcvm4jA7",
+            "lat": 52.2203256,
+            "lon": -117.2271163,
+            "done": true
+          },
+          {
+            "text": "Morant's Curve",
+            "emoji": "🚂",
+            "id": "fbwpopn2",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 133.58,
+            "durationMin": 122,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/d5a7XvzyRFyPhGrB9",
+            "lat": 51.3995267,
+            "lon": -116.1297778,
+            "done": true
+          },
+          {
+            "text": "Saskatchewan River Crossing",
+            "emoji": "🌊",
+            "id": "xzvow5dx",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/SX4pyTKNrm5waPff8",
+            "lat": 51.9729831,
+            "lon": -116.7643675,
+            "done": true,
+            "distanceKm": 84.76,
+            "durationMin": 75
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Entire house (Airbnb)",
+            "city": "Calgary",
+            "rooms": "Entire house, Sept 7–10",
+            "link": "https://www.airbnb.ca/",
+            "confirmed": false,
+            "id": "3v9w0a4c"
+          }
+        ],
+        "notes": "Hotel for tonight still pending — Calgary Airbnb vs Cochrane house.",
+        "id": "p4d53zpm"
+      },
+      {
+        "date": "2026-09-08",
+        "from": "Canmore / Calgary",
+        "to": "Canmore / Calgary",
+        "place": "canmore",
+        "emoji": "🦖",
+        "photo": "images/hot-springs.jpg",
+        "headline": "Calgary day",
+        "travelTime": "🚗 ~45m (Banff/Canmore → Kananaskis)",
+        "activities": [
+          {
+            "text": "Calgary Zoo",
+            "emoji": "🦁",
+            "id": "k19l2951",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/6fru8KQDp5BPpUUSA",
+            "lat": 51.0454562,
+            "lon": -114.029766,
+            "done": true
+          },
+          {
+            "text": "Peace Bridge",
+            "emoji": "🌉",
+            "id": "vefe36h8",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/MSSCurzCbQTE2vhy7",
+            "lat": 51.0539103,
+            "lon": -114.0814393,
+            "distanceKm": 4.93,
+            "durationMin": 8,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Entire house (Airbnb)",
+            "city": "Calgary",
+            "rooms": "Entire house, Sept 7–10",
+            "link": "https://www.airbnb.ca/",
+            "confirmed": false,
+            "id": "db40tz2g"
+          }
+        ],
+        "notes": "",
+        "id": "fnn3dagq"
+      },
+      {
+        "date": "2026-09-09",
+        "from": "Calgary",
+        "to": "Calgary",
+        "place": "calgary",
+        "emoji": "🛶",
+        "photo": "images/drumheller.jpg",
+        "headline": "Lake day",
+        "travelTime": "🚗 ~1h 10m (Canmore → Calgary)",
+        "activities": [
+          {
+            "text": "Lake Moraine",
+            "emoji": "🚌",
+            "id": "g3dt8iqm",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/DDyxUARcGJaBpJLy5",
+            "lat": 50.9436529,
+            "lon": -114.0609024,
+            "done": true
+          },
+          {
+            "emoji": "📍",
+            "text": "Lake Louise",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/9dEpSKBbcZtmKhJJ7",
+            "id": "cnv2yujj",
+            "lat": 50.9450397,
+            "lon": -114.0504706,
+            "distanceKm": 1.05,
+            "durationMin": 2,
+            "done": true
+          },
+          {
+            "text": "Emerald Lake + kayak",
+            "emoji": "🛶",
+            "id": "3rxtko6o",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/sTUcbneXQCz3tBrj8",
+            "lat": 53.6351144,
+            "lon": -112.7620821,
+            "distanceKm": 365.46,
+            "durationMin": 270,
+            "done": true
+          },
+          {
+            "text": "Takakkaw Falls",
+            "emoji": "💧",
+            "id": "vfozhh8b",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/8Yn7z8x5ZCbwFkxU7",
+            "lat": 51.4990314,
+            "lon": -116.4804774,
+            "flightLeg": true,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [
+          {
+            "name": "Entire house (Airbnb)",
+            "city": "Calgary",
+            "rooms": "Entire house, Sept 7–10",
+            "link": "https://www.airbnb.ca/",
+            "confirmed": false,
+            "id": "r07dhq57"
+          }
+        ],
+        "notes": "",
+        "id": "brniknvq"
+      },
+      {
+        "date": "2026-09-10",
+        "from": "YYC (Calgary)",
+        "to": "YYZ (Toronto)",
+        "place": "calgary",
+        "emoji": "🏠",
+        "photo": "images/calgary.jpg",
+        "headline": "Fly home",
+        "travelTime": "✈️ ~4h direct flight",
+        "activities": [
+          {
+            "text": "Drumheller / Badlands",
+            "emoji": "🦕",
+            "id": "rhrof8pr",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/cg6tCspp2ET55GVZA",
+            "lat": 51.380941,
+            "lon": -112.5526172,
+            "done": true
+          },
+          {
+            "emoji": "📍",
+            "text": "Royal Tyrrell Museum",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://share.google/JRDyF3RvNFaPXsabX",
+            "id": "ls4cdr9w",
+            "lat": 51.4793524,
+            "lon": -112.7900615,
+            "distanceKm": 22.09,
+            "durationMin": 25,
+            "done": true
+          },
+          {
+            "text": "Return rental car (Turo)",
+            "emoji": "🚙",
+            "arrive": "09:00",
+            "id": "h8xr8x2s",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/LJW1L3b5BeKSYaqm7",
+            "lat": 50.9889915,
+            "lon": -113.9747159,
+            "distanceKm": 143.29,
+            "durationMin": 119,
+            "done": true
+          },
+          {
+            "text": "Depart YYC",
+            "emoji": "✈️",
+            "id": "p0egs5od",
+            "arrive": "",
+            "leave": "",
+            "distanceKm": 18.05,
+            "durationMin": 16,
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/65tGwHP6kPzbnGdV8",
+            "lat": 51.1317786,
+            "lon": -114.0436384,
+            "done": true
+          },
+          {
+            "emoji": "📍",
+            "text": "YYZ",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/ohDrYvoq2wvcpLr39",
+            "id": "s20pu8hi",
+            "lat": 43.6832357,
+            "lon": -79.6294234,
+            "flightLeg": true,
+            "done": true
+          },
+          {
+            "text": "Pick up car — Park'N Fly (YYZ)",
+            "emoji": "🅿️",
+            "link": "https://parknfly.ca/",
+            "id": "7nhs9191",
+            "arrive": "",
+            "leave": "",
+            "mapLink": "https://maps.app.goo.gl/XYh7PERik4j7p6sJ9",
+            "lat": 43.6927093,
+            "lon": -79.5769726,
+            "distanceKm": 11.39,
+            "durationMin": 20,
+            "done": true
+          },
+          {
+            "text": "Home sweet home ",
+            "emoji": "🏠",
+            "id": "ppkvs5i7",
+            "arrive": "",
+            "leave": "",
+            "link": "",
+            "mapLink": "https://maps.app.goo.gl/xoNtDie7Crupnc2t9",
+            "lat": 43.8897894,
+            "lon": -78.8435072,
+            "distanceKm": 66.74,
+            "durationMin": 57,
+            "done": true
+          }
+        ],
+        "ifTimePermits": [],
+        "stops": [],
+        "hotels": [],
+        "notes": "Car return (Turo) in Calgary SE — Thu Sep 10, 9:00 AM.",
+        "id": "9oza0ewc"
+      }
+    ],
+    "savedAt": "2026-09-12T20:51:11.485Z"
+  },
+  "savedAt": "2026-09-12T20:51:11.485Z"
+}

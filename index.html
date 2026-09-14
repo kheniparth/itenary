@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#1b3a4b" />
+<meta name="description" content="Banff & Jasper road trip itinerary" />
+<title>Banff & Jasper Trip 2026</title>
+
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Banff Trip" />
+
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+<link rel="stylesheet" href="css/styles.css?v=29" />
+</head>
+<body>
+
+<div id="offline-banner" class="offline-banner hidden">📡 You're offline — showing cached info</div>
+<div id="sync-banner" class="sync-banner hidden"></div>
+
+<header class="hero" id="hero">
+  <div class="hero-bg" id="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Sept 2 – 10, 2026</p>
+    <h1 class="hero-title">🏔️ Banff &amp; Jasper Road Trip</h1>
+    <div id="countdown" class="countdown"></div>
+  </div>
+</header>
+
+<nav class="tabbar" id="tabbar">
+  <button class="tab active" data-tab="day">🌤️ Day</button>
+  <button class="tab" data-tab="itinerary">📅 List</button>
+  <button class="tab" data-tab="overview">✨ Overview</button>
+  <button class="tab" data-tab="packing">🎒 Packing</button>
+  <button class="tab" data-tab="map">🗺️ Map</button>
+</nav>
+
+<main id="app">
+
+  <section id="view-day" class="view">
+    <div class="day-swipe-controls">
+      <button id="day-prev" class="day-nav-btn" aria-label="Previous day">‹</button>
+      <div id="day-dots" class="day-dots"></div>
+      <button id="day-next" class="day-nav-btn" aria-label="Next day">›</button>
+    </div>
+    <div id="day-swipe" class="day-swipe"></div>
+  </section>
+
+  <section id="view-overview" class="view hidden">
+    <div class="card-grid" id="overview-content"></div>
+  </section>
+
+  <section id="view-itinerary" class="view hidden">
+    <div id="day-list" class="day-list"></div>
+    <button id="add-day-btn" class="add-day-btn hidden">➕ Add a day</button>
+  </section>
+
+  <section id="view-packing" class="view hidden">
+    <div id="packing-content"></div>
+  </section>
+
+  <section id="view-map" class="view hidden">
+    <div id="map-content"></div>
+  </section>
+
+</main>
+
+<div id="install-toast" class="install-toast hidden">
+  <span>📲 Add this to your home screen for quick offline access</span>
+  <button id="install-btn">Install</button>
+  <button id="install-dismiss" aria-label="Dismiss">✕</button>
+</div>
+
+<!-- Generic edit modal -->
+<div id="modal-overlay" class="modal-overlay hidden">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="modal-title">Edit</h3>
+      <button id="modal-close" aria-label="Close">✕</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+    <div class="modal-footer">
+      <button id="modal-delete" class="modal-btn danger hidden">Delete</button>
+      <div class="modal-footer-right">
+        <button id="modal-cancel" class="modal-btn ghost">Cancel</button>
+        <button id="modal-save" class="modal-btn primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<template id="day-card-template">
+  <article class="day-card">
+    <button class="day-card-header">
+      <div class="day-card-headline">
+        <span class="day-emoji"></span>
+        <div>
+          <div class="day-date"></div>
+          <div class="day-heading"></div>
+        </div>
+      </div>
+      <div class="day-weather"></div>
+      <span class="chevron">▾</span>
+    </button>
+    <div class="day-card-body">
+      <div class="route-line"></div>
+      <a class="photo-upload-btn" target="_blank" rel="noopener">📸 Add photos from today</a>
+      <div class="section">
+        <div class="section-head"><h4>Activities</h4><button class="add-btn" data-list="activities">＋</button></div>
+        <ul class="activity-list"></ul>
+      </div>
+      <div class="section if-time-section hidden">
+        <div class="section-head"><h4>If time permits</h4><button class="add-btn" data-list="ifTimePermits">＋</button></div>
+        <ul class="activity-list muted"></ul>
+      </div>
+      <div class="section stops-section hidden">
+        <div class="section-head"><h4>Stops along the way</h4><button class="add-btn" data-list="stops">＋</button></div>
+        <ul class="activity-list"></ul>
+      </div>
+      <div class="section hotel-section hidden">
+        <div class="section-head"><h4>Hotel</h4><button class="add-btn" data-list="hotels">＋</button></div>
+        <div class="hotel-list"></div>
+      </div>
+      <div class="section notes-section">
+        <h4>Notes</h4>
+        <textarea class="notes-input" placeholder="Add a note (saved on this device)…"></textarea>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script src="vendor/leaflet/leaflet.js?v=29"></script>
+<script src="js/data.js?v=29"></script>
+<script src="js/store.js?v=29"></script>
+<script src="js/sync.js?v=29"></script>
+<script src="js/routing.js?v=29"></script>
+<script src="js/weather.js?v=29"></script>
+<script src="js/app.js?v=29"></script>
+</body>
+</html>

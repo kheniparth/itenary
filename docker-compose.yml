@@ -1,0 +1,23 @@
+services:
+  banff-trip:
+    build: .
+    image: banff-trip:latest
+    container_name: banff-trip
+    restart: unless-stopped
+    ports:
+      - "10450:80"
+    depends_on:
+      - banff-api
+    volumes:
+      # Static site files — survive container recreation; editable on host without rebuild.
+      - ./:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+
+  banff-api:
+    build: ./server
+    image: banff-api:latest
+    container_name: banff-api
+    restart: unless-stopped
+    volumes:
+      # Trip edits (itinerary, packing, map links) — durable on host disk.
+      - ./data:/data
